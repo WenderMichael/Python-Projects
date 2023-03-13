@@ -1,5 +1,5 @@
 print("----------------------------------------------")
-print("Bem vindo a calculadora do WD!")
+print("Bem vindo ao Calcular INSS!")
 print("----------------------------------------------")
 
 salario = float(input("Digite o valor do salário: "))
