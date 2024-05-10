@@ -4,7 +4,7 @@ import RelogioDigital
 
 def escolher_jogo():
     print("*********************************")
-    print("*******ESCOLHA O PROJETO!*******")
+    print("******* ESCOLHA O PROJETO! ******")
     print("*********************************")
 
     print("(1) Calculadora")
