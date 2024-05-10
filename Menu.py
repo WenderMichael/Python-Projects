@@ -8,7 +8,7 @@ def escolher_jogo():
     print("*********************************")
 
     print("(1) Calculadora")
-    print("(2) Calcular NSS")
+    print("(2) Calcular INSS")
     print("(3) Relogio Digital")
 
     projeto = int(input("Qual projeto? "))
