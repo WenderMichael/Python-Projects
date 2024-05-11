@@ -1,7 +1,7 @@
 def executar():
       print("----------------------------------------------")
 
-      print("Bem vindo a calculadora do Wender!")
+      print("Bem vindo a calculadora")
 
       print("----------------------------------------------")
 
