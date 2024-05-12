@@ -1,5 +1,6 @@
 from tkinter import *
 from time import strftime
+import Menu
 
 def executar():
 # Função para atualizar o relógio
@@ -7,6 +8,10 @@ def executar():
         horario_atual = strftime("%H:%M:%S %p")
         rotulo_relogio.config(text=horario_atual)
         rotulo_relogio.after(1000,atualizar_relogio)
+
+    def voltar_menu():
+        janela.destroy()
+        Menu.escolher_jogo()
 
     # Criando da janela principal
     janela = Tk()
@@ -20,10 +25,10 @@ def executar():
         foreground="white"
     )
 
+    rotulo_relogio.grid(column=1, row=0)
 
-    # Posiciona o rótulo no centro da janela
-    rotulo_relogio.pack(anchor="center")
-
+    botao = Button(janela, text="Voltar ao menu", command=voltar_menu)
+    botao.grid(column=1, row=2)
 
     # Inicia a atualização do relógio
     atualizar_relogio()
